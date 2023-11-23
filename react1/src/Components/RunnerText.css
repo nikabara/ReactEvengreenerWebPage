@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel-background {
+    background-color: #296647;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    height: 50px;
+}
+
+.centering-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-indicators {
+    display: none !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    display: none !important;
+    cursor: not-allowed !important;
+}
+
+.slide-paragraphs {
+    color: #efefef;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.carousel-inner {
+    width: 50% !important;
+}
+
+.carousel-item {
+    transition: 2s ease-in-out !important;
+}
